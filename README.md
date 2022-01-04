@@ -1,7 +1,8 @@
 # Motion quality assessment for JDM
 
 
-## Directory structure
+
+## Project structure
 
 ```shell script
 .
@@ -19,7 +20,10 @@
     └── visualize_frames.py
 ```
 
-## `FBX` to `NPY` converter
+
+
+
+## `FBX` to `NPZ` converter
 
 ```shell script
 cd ./utils
