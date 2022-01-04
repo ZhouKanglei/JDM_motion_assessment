@@ -4,24 +4,18 @@
 ## Directory structure
 
 ```shell script
+.
 ├── data
-│   ├── 1
-│   │   └── AA.FBX
-│   ├── 2
-│   │   └── 1_00.FBX
-│   └── 3
-│       └── Aim.fbx
+│   ├── raw
+│   │   ├── AA.FBX
+│   │   └── BB.FBX
+│   └── tmp
+│       └── JDM_motion.npz
+├── README.md
 ├── test.py
 └── utils
-    ├── fbx2json
-    │   ├── 1_00
-    │   │   └── JointDict
-    │   └── AA
-    │       └── JointDict
     ├── fbx2npy.py
-    ├── homefile.blend
-    ├── homefile.blend1
-    ├── json2npy
+    ├── fbx2npz.py
     └── visualize_frames.py
 ```
 
@@ -29,5 +23,5 @@
 
 ```shell script
 cd ./utils
-blender --background -P fbx2npy.py
+blender --background -P fbx2npz.py
 ```
