@@ -4,25 +4,25 @@
 ## Directory structure
 
 ```shell script
-©À©¤©¤ data
-©¦?? ©À©¤©¤ 1
-©¦?? ©¦?? ©¸©¤©¤ AA.FBX
-©¦?? ©À©¤©¤ 2
-©¦?? ©¦?? ©¸©¤©¤ 1_00.FBX
-©¦?? ©¸©¤©¤ 3
-©¦??     ©¸©¤©¤ Aim.fbx
-©À©¤©¤ test.py
-©¸©¤©¤ utils
-    ©À©¤©¤ fbx2json
-    ©¦?? ©À©¤©¤ 1_00
-    ©¦?? ©¦?? ©¸©¤©¤ JointDict
-    ©¦?? ©¸©¤©¤ AA
-    ©¦??     ©¸©¤©¤ JointDict
-    ©À©¤©¤ fbx2npy.py
-    ©À©¤©¤ homefile.blend
-    ©À©¤©¤ homefile.blend1
-    ©À©¤©¤ json2npy
-    ©¸©¤©¤ visualize_frames.py
+â”œâ”€â”€ data
+â”‚Â Â  â”œâ”€â”€ 1
+â”‚Â Â  â”‚Â Â  â””â”€â”€ AA.FBX
+â”‚Â Â  â”œâ”€â”€ 2
+â”‚Â Â  â”‚Â Â  â””â”€â”€ 1_00.FBX
+â”‚Â Â  â””â”€â”€ 3
+â”‚Â Â      â””â”€â”€ Aim.fbx
+â”œâ”€â”€ test.py
+â””â”€â”€ utils
+    â”œâ”€â”€ fbx2json
+    â”‚Â Â  â”œâ”€â”€ 1_00
+    â”‚Â Â  â”‚Â Â  â””â”€â”€ JointDict
+    â”‚Â Â  â””â”€â”€ AA
+    â”‚Â Â      â””â”€â”€ JointDict
+    â”œâ”€â”€ fbx2npy.py
+    â”œâ”€â”€ homefile.blend
+    â”œâ”€â”€ homefile.blend1
+    â”œâ”€â”€ json2npy
+    â””â”€â”€ visualize_frames.py
 ```
 
 ## `FBX` to `NPY` converter
