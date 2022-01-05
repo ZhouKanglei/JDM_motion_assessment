@@ -13,8 +13,8 @@ RESOLUTION = (512, 512)
 
 # Crucial joints sufficient for visualisation # FIX ME - Add more joints if desirable for MixamRig
 BASE_JOINT_NAMES = [
-    'Head', 'Neck',
-    'left_Shoulder', 'right_Shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist',
+    'head',
+    'left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist',
     'left_little_distal', 'right_little_distal', 'left_index_distal', 'right_index_distal',
     'right_thumb_distal', 'left_thumb_distal',
     'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle',
@@ -53,7 +53,6 @@ def fbx2npz():
     # Get animation(.fbx) file paths
     anims_path = os.listdir(SRC_DATA_DIR)
 
-
     data, label = [], []
     for anim_name in anims_path:
 
@@ -71,9 +70,9 @@ def fbx2npz():
 
             bpy.context.scene.frame_set(i)
 
-            bone_struct = bpy.data.objects['Bip001'].pose.bones
+            bone_struct = bpy.data.objects['bip001'].pose.bones
 
-            armature = bpy.data.objects['Bip001']
+            armature = bpy.data.objects['bip001']
 
             frame = []
             for name in joint_names:

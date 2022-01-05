@@ -10,6 +10,8 @@
 
 ![](data/topology/skeleton_hand.jpg)
 
+![](data/topology/topology.jpg)
+
 ## Project structure
 
 ```shell script

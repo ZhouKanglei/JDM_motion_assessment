@@ -56,8 +56,6 @@ def fbx2jointDict():
     # Make OUT_DATA_DIR
     os.makedirs(OUT_DATA_DIR, exist_ok=True)
 
-
-    motions = []
     for anim_name in anims_path:
         
         anim_file_path = os.path.join(SRC_DATA_DIR,anim_name)
