@@ -1,6 +1,6 @@
 # !/usr/bin/env python
 # -*- coding: utf-8 -*-
-# 2022/raw/4 21:13
+# 2022/fbx/4 21:13
 
 import bpy
 import os
@@ -13,7 +13,7 @@ RESOLUTION = (512, 512)
 
 # Crucial joints sufficient for visualisation # FIX ME - Add more joints if desirable for MixamRig
 BASE_JOINT_NAMES = [
-    'head',
+    'head', 'neck',
     'left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist',
     'left_little_distal', 'right_little_distal', 'left_index_distal', 'right_index_distal',
     'right_thumb_distal', 'left_thumb_distal',
@@ -22,10 +22,10 @@ BASE_JOINT_NAMES = [
 ]
 
 # Source directory where .fbx exist
-SRC_DATA_DIR = '../data/raw'
+SRC_DATA_DIR = '../data/fbx'
 
 # Final directory where NPY files will ve stored
-FINAL_DIR_PATH = '../data/tmp'
+FINAL_DIR_PATH = '../data/npz'
 
 # Number of joints to be used from MixamoRig
 joint_names = [x for x in BASE_JOINT_NAMES]
@@ -92,7 +92,7 @@ def fbx2npz():
     print(f'Save [{filename}]')
 
 if __name__ == '__main__':
-    # Convert .fbx files to JSON dict
+    # Convert .fbx files to .npz file
     fbx2npz()
 
 

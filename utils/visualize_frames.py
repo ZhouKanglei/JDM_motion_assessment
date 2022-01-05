@@ -10,7 +10,7 @@ def visualise_frames(pathtonpy='json2npy/Aim/Aim.npy',up_view=0,side_view=90,x_l
     Each POSE follow the given index joints below:
     
         0 - Head
-        raw - Neck
+        fbx - Neck
         2 - Lshoulder
         3 - Lelbow
         4 - Lwrist

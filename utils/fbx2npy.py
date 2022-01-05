@@ -19,13 +19,13 @@ BASE_JOINT_NAMES = [
 ]
 
 # Source directory where .fbx exist
-SRC_DATA_DIR = '../data/raw'
+SRC_DATA_DIR = '../data/fbx'
 
 # Ouput directory where .fbx to JSON dict will be stored
-OUT_DATA_DIR ='../data/tmp/fbx2json'
+OUT_DATA_DIR = '../data/npz/fbx2json'
 
 # Final directory where NPY files will ve stored
-FINAL_DIR_PATH ='../data/tmp/json2npy'
+FINAL_DIR_PATH = '../data/npz/json2npy'
 
 # Number of joints to be used from MixamoRig
 joint_names = [x for x in BASE_JOINT_NAMES]
