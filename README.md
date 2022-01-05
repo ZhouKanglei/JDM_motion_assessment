@@ -2,6 +2,14 @@
 
 
 
+## Skeleton topolopy
+
+![](./data/graph/pose_tracking_full_body_landmarks.png)
+
+![](./data/graph/skeleton_body.jpg)
+
+![](./data/graph/skeleton_hand.jpg)
+
 ## Project structure
 
 ```shell script
