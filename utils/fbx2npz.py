@@ -13,11 +13,11 @@ RESOLUTION = (512, 512)
 
 # Crucial joints sufficient for visualisation # FIX ME - Add more joints if desirable for MixamRig
 BASE_JOINT_NAMES = [
-    'head', 'neck',
-    'left_shoulder', 'right_shoulder', 'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist',
+    'head', 'neck', 'left_shoulder', 'right_shoulder',
+    'left_elbow', 'right_elbow', 'left_wrist', 'right_wrist',
     'left_little_distal', 'right_little_distal', 'left_index_distal', 'right_index_distal',
-    'right_thumb_distal', 'left_thumb_distal',
-    'left_hip', 'right_hip', 'left_knee', 'right_knee', 'left_ankle', 'right_ankle',
+    'right_thumb_distal', 'left_thumb_distal', 'left_hip', 'right_hip',
+    'left_knee', 'right_knee', 'left_ankle', 'right_ankle',
     'left_foot_index', 'right_foot_index'
 ]
 
