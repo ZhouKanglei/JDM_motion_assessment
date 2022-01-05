@@ -4,11 +4,11 @@
 
 ## Skeleton topolopy
 
-![](./data/graph/pose_tracking_full_body_landmarks.png)
+![](data/topology/pose_tracking_full_body_landmarks.png)
 
-![](./data/graph/skeleton_body.jpg)
+![](data/topology/skeleton_body.jpg)
 
-![](./data/graph/skeleton_hand.jpg)
+![](data/topology/skeleton_hand.jpg)
 
 ## Project structure
 
