@@ -6,11 +6,9 @@
 
 ![](data/topology/pose_tracking_full_body_landmarks.png)
 
-![](data/topology/skeleton_body.jpg)
 
-![](data/topology/skeleton_hand.jpg)
 
-![](data/topology/topology.jpg)
+
 
 ## Project structure
 
@@ -35,7 +33,18 @@
 
 ## `FBX` to `NPZ` converter
 
+The original topology is as follows:
+
+![](data/topology/skeleton_body.jpg)
+![](data/topology/skeleton_hand.jpg)
+
+By the following script, the data fromat can be coverted from `FBX` to `NPZ`.
+
 ```shell script
 cd ./utils
 blender --background -P fbx2npz.py
 ```
+
+The obtained topology is as follows:
+
+![](data/topology/topology.jpg)
