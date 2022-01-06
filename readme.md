@@ -10,13 +10,14 @@ cd ./utils
 blender --background -P fbx2npz.py
 ```
 
-The original data is located in `./data/fbx`, while the obtained data is located in `./data/npz`.
+The original data is located in `./data/fbx`, while the obtained data is located in `./data/npz`. 
 
-The original topology and the converted topology are as follows:
+The original topology (a-b) and the converted topology (c) are as follows:
 
 | ![](data/topology/skeleton_body.jpg) | ![](data/topology/skeleton_hand.jpg) | ![](data/topology/topology.jpg) |
 | :----------------------------------: | :----------------------------------: | :-----------------------------: |
-|                 Body                 |                 Hand                 |              Ours               |
+|               (a) Body               |               (b) Hand               |            (c) Ours             |
 
 
-Compared with [MediaPipe Pose landmarks](https://google.github.io/mediapipe/solutions/pose.html#pose-landmark-model-blazepose-ghum-3d), ours has less joints in the face, hand and foot.
+Compared with [MediaPipe Pose landmarks](https://google.github.io/mediapipe/solutions/pose.html#pose-landmark-model-blazepose-ghum-3d), ours (c) has less joints in the face, hand and foot.
+
