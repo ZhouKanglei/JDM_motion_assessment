@@ -10,11 +10,9 @@
 
 The original topology is as follows:
 
-<center>
-    <img src="./data/topology/skeleton_body.jpg" width="50%" align=left> <img src="./data/topology/skeleton_hand.jpg" width="50%" align=right>
-</center>
-
-![](data/topology/skeleton_body.jpg)![](data/topology/skeleton_hand.jpg)
+| ![](data/topology/skeleton_body.jpg) | ![](data/topology/skeleton_hand.jpg) |
+| :----------------------------------: | :----------------------------------: |
+|                 Body                 |                 Hand                 |
 
 By the following script, the original data format can be converted from `fbx` to `npz`.
 
