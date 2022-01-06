@@ -1,1 +1,1 @@
-from . import visualize_frames
+from . import vis_skeleton

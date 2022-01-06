@@ -21,3 +21,6 @@ The original topology (a-b) and the converted topology (c) are as follows:
 
 Compared with [MediaPipe Pose landmarks](https://google.github.io/mediapipe/solutions/pose.html#pose-landmark-model-blazepose-ghum-3d), ours (c) has less joints in the face, hand and foot.
 
+The generated motion is as follows:
+
+![](outputs/ani/ani.gif)
