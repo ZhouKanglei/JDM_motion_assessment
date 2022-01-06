@@ -23,4 +23,9 @@ Compared with [MediaPipe Pose landmarks](https://google.github.io/mediapipe/solu
 
 The generated motion is as follows:
 
-![](outputs/ani/ani.gif)
+| ![](outputs/ani/ani.gif) |
+| :----------------------: |
+|          Sample          |
+
+
+
