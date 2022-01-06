@@ -11,7 +11,8 @@
 The original topology is as follows:
 
 <center>
-    <img src="./data/topology/skeleton_body.jpg" width="50%" align=left><img src="./data/topology/skeleton_hand.jpg" width="50%" align=right>
+    <img src="./data/topology/skeleton_body.jpg" width="48%" align=left>
+    <img src="./data/topology/skeleton_hand.jpg" width="48%" align=right>
 </center>
 
 ![](data/topology/skeleton_body.jpg)![](data/topology/skeleton_hand.jpg)
